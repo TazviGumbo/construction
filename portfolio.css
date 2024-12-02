@@ -1,0 +1,225 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header{
+  background:url("pictures/heavy.jpg");
+  float: center;
+  clear: both;
+  width: auto;
+  padding: 40px 40px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 0px 0px 30% 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 60%;
+  
+ }
+
+.header-content {
+  text-align: center;
+}
+.header-content h1{
+color: #fff;
+
+}
+.header-content p {
+  font-weight:1000;
+  font-size: 40px;
+  color: rgb(255, 255, 255);
+}
+
+.header-nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.header-nav ul li {
+  margin: 0 15px;
+}
+
+.header-nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.header-nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+main {
+  padding: 20px;
+}
+
+.Images{
+  width: 330px;
+  height: 200px;
+  display: inline-block;
+  border-radius: 10px;
+  padding:25px 20px;
+  cursor: pointer;
+  margin: 10px 30px;
+  margin-bottom: 30px;
+  background-position: center;
+  background-size: cover;
+  color: #f4b94d;
+  font-size: 19px;
+  font-weight:700;
+  transition: transform 0.5s;
+}
+
+.Images:hover{
+  transform: translateY(-10px); 
+  } 
+.image1{
+  background-image: url(pictures/woman.jpg); 
+}
+.image2{
+  background-image: url(pictures/2prime.webp); 
+}
+.image3{
+  background-image: url(pictures/dot.jpg); 
+}
+.image4{
+  background-image: url(pictures/kendrick.webp); 
+}
+.image5{
+  background-image: url(pictures/Man.jpeg); 
+}
+.image6{
+  background-image: url(pictures/unnamed.jpg); 
+
+}
+  
+.PORThead form{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.PORThead h1{
+  text-align: center;
+   color: rgb(0, 0, 0);
+   font-weight: 150%;
+   font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+   font-size: 35px;
+   padding-left: 5px;
+}
+
+.PORThead button{
+  background-color: #f4b94d;
+  align-self: center;
+  border: #333;
+  height: 40px;
+  border-radius: 5px 5px 5px 5px;
+  }
+
+footer {
+  background-color: #012944;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-top {
+  background-color: #003E65;
+  height: 150px; 
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.newsletter {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #fff;
+  padding: 60px;
+}
+.infi p {
+  padding-left: 110px;
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  font-weight: bolder;
+  font-size: 40px;
+  display: inline-block;
+}
+.newsletter h3 {
+  margin-bottom: 20px;
+}
+
+.newsletter form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsletter input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border-color: #f4b94d;
+  border-radius: 40px 40px 40px 40px;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #f4b94d;
+  color: #333;
+  border-radius: 33px 33px 33px 33px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 20px;
+}
+
+.newsletter button:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.footer-bottom {
+  height: 30px; 
+  padding: 10px 20px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #012944; 
+  color: #fff; 
+}
+
+.social-icons {
+  margin-top: 10px; 
+}
+
+.social-icon {
+  display: inline-block;
+  width: 40px; 
+  height: 40px;
+  background-color: #fff;
+  color: #333; 
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px; 
+  margin: 0px 10px; 
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-icon:hover {
+  background-color: #333;
+  color: #fff; 
+}
